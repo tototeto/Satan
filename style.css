@@ -2,6 +2,7 @@
 
 #header {
 	background: #a90329;
+	font-family: 'Shadows Into Light', cursive;
 }
 
 #header img.logo {
@@ -13,7 +14,7 @@
 #header #company-name {
 	float: left;
 	margin-top: 40px;
-	font-family: 'Sigmar One', cursive;
+	font-family: 'Shadows Into Light', cursive;
 	font-size: 32px;
 	color: #fff;
 }
@@ -22,7 +23,7 @@
 	position: relative;
 }
 
-#satanlogo {
+.logo {
 	height: 150px;
 	width: 150px;
 }
@@ -50,6 +51,11 @@ body {
 
 #content-wrapper {
 	background-color: #aaa;
+}
+
+#content-wrapper img {
+	margin: auto;
+	width: 100%;
 }
 
 #navbar-container {
@@ -134,7 +140,6 @@ body {
 	margin: 5px 20px 0 0;
   padding: 0 5px;
 	outline: 2px solid #dd0009;
-
 }
 
 #stories {
